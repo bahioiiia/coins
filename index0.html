@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Комбінації монет в євроцентах</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .coin-section {
+        background: white;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .coin-title {
+        font-size: 24px;
+        color: #2c3e50;
+        margin-bottom: 15px;
+      }
+      .combination {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px;
+        background: #f8f9fa;
+        border-radius: 4px;
+      }
+      .coin {
+        width: 40px;
+        height: 40px;
+        background: #ffd700;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+        font-weight: bold;
+        border: 2px solid #daa520;
+      }
+      .plus {
+        margin: 0 10px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Комбінації монет в євроцентах</h1>
+
+    <div class="coin-section">
+      <div class="coin-title">1 цент</div>
+      <div class="combination">
+        <div class="coin">1¢</div>
+      </div>
+    </div>
+
+    <div class="coin-section">
+      <div class="coin-title">2 центи</div>
+      <div class="combination">
+        <div class="coin">2¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+      </div>
+    </div>
+
+    <div class="coin-section">
+      <div class="coin-title">5 центів</div>
+      <div class="combination">
+        <div class="coin">5¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+      </div>
+    </div>
+
+    <div class="coin-section">
+      <div class="coin-title">10 центів</div>
+      <div class="combination">
+        <div class="coin">10¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">5¢</div>
+        <span class="plus">+</span>
+        <div class="coin">5¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">5¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">1¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+        <span class="plus">+</span>
+        <div class="coin">2¢</div>
+      </div>
+    </div>
+
+    <div class="coin-section">
+      <div class="coin-title">20 центів</div>
+      <div class="combination">
+        <div class="coin">20¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">5¢</div>
+        <span class="plus">+</span>
+        <div class="coin">5¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">5¢</div>
+        <span class="plus">+</span>
+        <div class="coin">5¢</div>
+        <span class="plus">+</span>
+        <div class="coin">5¢</div>
+        <span class="plus">+</span>
+        <div class="coin">5¢</div>
+      </div>
+    </div>
+
+    <div class="coin-section">
+      <div class="coin-title">50 центів</div>
+      <div class="combination">
+        <div class="coin">50¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">20¢</div>
+        <span class="plus">+</span>
+        <div class="coin">20¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">20¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+      </div>
+      <div class="combination">
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+        <span class="plus">+</span>
+        <div class="coin">10¢</div>
+      </div>
+    </div>
+  </body>
+</html>
